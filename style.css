@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,6 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -84,4 +87,39 @@ header
 img {
 	max-width: 300px;
 	max-height: 300px;
+}
+footer {
+ 
+ height:200px;
+ width:100%; 
+ background-color: rgba(139,26,26, 0.1);
+}
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-top: 100px;
+}
+#social{
+display: flex;
+align-content: center;
+align-items: center;
+}
+@media (max-width: 600px){
+
+.menu{
+display: flex;
+flex-direction: row;
+flex-direction: column;
+align-items: center;
+padding-top: 100px;
+}
+.grid {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	align-items: center;
+
+}
 }
